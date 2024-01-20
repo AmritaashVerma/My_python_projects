@@ -1,5 +1,4 @@
-import pyqrcode
-from pyqrcode import QRCode 
+import pyqrcode  
 import png
 
 input_link = input("Enter the link or text you want the qr code of: ")

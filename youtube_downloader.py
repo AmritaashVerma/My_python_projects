@@ -16,7 +16,7 @@ vid_title = ((((str(yt.title)).replace('.', '')).replace(',', '')).replace("'", 
 #starting download
 ys = yt.streams.get_highest_resolution()
 print("Downloading...")
-ys.download(r'C:\Users\amrit\Videos\Music_videos')
+ys.download(r'C:\Users\amrit\Videos')
 print("Download completed!!")
 
 #the mp4 to mp3 process
@@ -26,7 +26,7 @@ if opinion in ['y', ' Y', ' y', 'Y']:
 		FILETOCONVERT = AudioFileClip(mp4)
 		FILETOCONVERT.write_audiofile(mp3)
 		FILETOCONVERT.close()
-	VIDEO_FILE_PATH = ((r"C:\Users\amrit\Videos\Music_videos\ ").replace(' ', '') + vid_title)
+	VIDEO_FILE_PATH = ((r"C:\Users\amrit\Videos\ ").replace(' ', '') + vid_title)
 	AUDIO_FILE_PATH = ((r"C:\Users\amrit\Music\ ").replace(' ', '') + (vid_title).replace('.mp4', '') + ".mp3")
 	MP4toMP3(VIDEO_FILE_PATH, AUDIO_FILE_PATH)
 elif opinion in ['n', 'N', ' n', ' N']:
