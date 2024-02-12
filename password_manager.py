@@ -23,7 +23,7 @@ def add_password():
     print("Do you confirm?\nAccount name: ", acc, "\nPassword: ", passw, "\npress ctrl+c to re enter.")
     time.sleep(6)
     acc_pass.write("\n" + acc + "\n")
-    acc_pass.write(passw + "\n ")
+    acc_pass.write(passw)
     print("The account and password have been successfuly added to the manager.")
     acc_pass.close()
 
