@@ -4,7 +4,7 @@ from tkinter import ttk
 class App():
     def __init__(self):
         self.root = tk.Tk() #the window of our app(esential)
-        self.root.geometry =('400x400') #the opening default size of our app
+        self.root.geometry = ('400x400') #the opening default size of our app
         self.root.title("A very simple test app") #the title bar of the app
         self.mainframe = tk.Frame(self.root, background="white") #over here we define the parent frame of the app in self and this is the frame in which all our UI and widgets will come 
         self.mainframe.pack(fill="both", expand=True)#this says the parent frame to span over the entire app
