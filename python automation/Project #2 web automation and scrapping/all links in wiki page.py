@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import pandas
 
-website = "https://en.wikipedia.org/wiki/Olympic_Games"
+website = "https://en.wikipedia.org/wiki/Quantum_computing"
 path = r'\'C:\Users\amrit\Desktop\My programming folders\My_python_projects\python automation\chrome_driver'
 
 service = Service(executable_path=path)
