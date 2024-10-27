@@ -2,7 +2,7 @@ from math import *
 
 response = input ("Which operation would you like to perform? Square root or cube root? Enter your response here: ")
 
-if response in ["square root", " square root", "square"]:
+if response in ["sqrt"]:
     print ("you have chosen square root operation.")
     number = input ("What is the number you would like to square root? Enter the number here(only the number): ")
     converted_num = int(number)
@@ -12,7 +12,7 @@ if response in ["square root", " square root", "square"]:
 else:
     print ("Oops there was a problem in registering your response! If you chose cube root it is in the following statements")
 
-    if response in ["cube root", " cube root", "cube"]:
+    if response in ["cbrt"]:
         print ("You have chosen the cube root operation")
         cube_num = input ("Enter the number that you would like to find the cube root of(only the number): ")
         converted_cube_num = int(cube_num)

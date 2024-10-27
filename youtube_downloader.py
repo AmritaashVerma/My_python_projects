@@ -4,7 +4,7 @@ from moviepy.editor import*
 
 #ask the link from the user
 link = input("Enter the link of the youtube video you want to download: ")
-yt = YouTube(str(link))
+yt = YouTube(link)
 opinion = input("Do you want to convert ur video to audio?(y or n): ")
 
 #Showing details

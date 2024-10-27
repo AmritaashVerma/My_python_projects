@@ -1,5 +1,5 @@
 {
     "cmake.configureOnOpen": false,
     "python.analysis.typeCheckingMode": "off",
-    "liveServer.settings.port": 5500
+    "liveServer.settings.port": 3001
 }
